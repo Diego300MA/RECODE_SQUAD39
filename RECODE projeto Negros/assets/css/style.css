@@ -13,6 +13,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    
 }
 
 header {
@@ -49,9 +50,9 @@ nav ul li a:hover {
 }
 
 .intro {
-    background-color: #000;
+    background-color: #2d2b2b;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -69,42 +70,18 @@ nav ul li a:hover {
     color: #000;
 }
 
-.card {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.card h3 {
-    margin-top: 15px;
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.card p {
-    font-size: 1rem;
-    margin-top: 10px;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+.flexivel-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
